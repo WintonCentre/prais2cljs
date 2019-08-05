@@ -142,7 +142,7 @@
    [:.row.footer.legal
     [:.col-md-offset-1
      [:p.copyright
-      "© PRAIS2 website project team 2016, 2018"]
+      "© PRAIS2 website project team 2016, 2019"]
      [:p.cookies "This site uses cookies to help understand how users interact with the site.
      See " [:a {:href "https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage"}
                              "Google Analytics"]]]]])

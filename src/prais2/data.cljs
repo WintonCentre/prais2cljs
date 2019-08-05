@@ -535,7 +535,7 @@
     {:value     (name (:datasource (rum.core/react core/app)))
      :on-change #(put! event-bus [:change-datasource (keyword (.-value (.-target %)))])}
     (map-indexed key-with
-                 (for [year (range 2013 2018)]              ; was 2017
+                 (for [year (range 2013 2019)]              ; was 2017
                    (key-option year)))]
    ])
 
