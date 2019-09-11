@@ -37,7 +37,8 @@
 
   :clean-targets ^{:protect false} ["resources/public/js/compiled"
                                     "target"
-                                    "resources/public/css"]
+                                    ;"resources/public/css"
+                                    ]
 
   :profiles {:make-home {:main prais2.pages.generator}
              :dev {:source-paths ["pages"]}
