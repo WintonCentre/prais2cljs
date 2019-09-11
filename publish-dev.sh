@@ -10,7 +10,7 @@ lein home     # creates static home page for fast load
 lein cljsbuild once min
 mkdir -p resources/public/css
 sass sass/app.scss resources/public/css/app.css
-gulp
+#gulp
 echo "===============rsync-ing files==================="
 rsync -av --del --no-perms --no-owner --no-group $LOCAL_DEV $USER@$TARGET
 echo "================================="
